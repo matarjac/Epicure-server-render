@@ -9,9 +9,11 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT
-app.use(cors({
-    origin: "https://matar-epicure.onrender.com"
-}));
+app.use(
+    cors({
+        origin: "*",
+    })
+);
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 
