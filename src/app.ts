@@ -9,9 +9,9 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT
+app.use(cors());
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
-app.use(cors());
 
 app.use(routers);
 
