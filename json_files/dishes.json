@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Pasta",
+        "restaurantNumber": 1,
+        "dishNumber": 1,
+        "ingredients": "kuskus, water",
+        "foodType": ["spicy"],
+        "img": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
+        "price": 65,
+        "isPopular": false,
+        "category": "launch"
+    },
+    {
+        "name": "Pad Ki Mao",
+        "restaurantNumber": 2,
+        "dishNumber": 2,
+        "ingredients": "Shrimps, Glass Noodles, Kemiri Nuts, Shallots, Lemon Grass, Magic Chili Brown Coconut",
+        "foodType": ["spicy", "Vegetarian"],
+        "img": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "price": 75,
+        "isPopular": true,
+        "category": "launch"
+    },
+    {
+        "name": "Garbanzo Frito",
+        "restaurantNumber": 2,
+        "dishNumber": 3,
+        "ingredients": "Polenta fingers, veal cheek, magic chili cured lemon cream, yellow laksa",
+        "foodType": ["spicy"],
+        "img": "https://images.unsplash.com/photo-1606728035253-49e8a23146de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "price": 60,
+        "isPopular": true,
+        "category": "launch"
+    },
+    {
+        "name": "Smoked Pizza",
+        "restaurantNumber": 2,
+        "dishNumber": 4,
+        "ingredients": "Basil dough, cashew 'butter', demi-glace,bison & radish",
+        "foodType": ["vegan"],
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "price": 45,
+        "isPopular": true,
+        "category": "launch"
+    },
+    {
+        "name": "kuskus",
+        "restaurantNumber": 2,
+        "dishNumber": 5,
+        "ingredients": "kuskus, water",
+        "foodType": ["spicy"],
+        "img": "https://images.unsplash.com/photo-1610657592176-23d38cb78116?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "price": 45,
+        "isPopular": false,
+        "category": "breakfast"
+    },
+    {
+        "name": "Smoked Pizza",
+        "restaurantNumber": 2,
+        "dishNumber": 6,
+        "ingredients": "Basil dough, cashew 'butter', demi-glace,bison & radish",
+        "foodType": ["vegan"],
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "price": 45,
+        "isPopular": true,
+        "category": "dinner"
+    },
+    {
+        "name": "kuskus",
+        "restaurantNumber": 2,
+        "dishNumber": 7,
+        "ingredients": "kuskus, water",
+        "foodType": ["spicy"],
+        "img": "https://images.unsplash.com/photo-1610657592176-23d38cb78116?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "price": 45,
+        "isPopular": false,
+        "category": "dinner"
+    },
+    {
+        "name": "Smoked Pizza",
+        "restaurantNumber": 2,
+        "dishNumber": 8,
+        "ingredients": "Basil dough, cashew 'butter', demi-glace,bison & radish",
+        "foodType": ["vegan"],
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "price": 45,
+        "isPopular": true,
+        "category": "dinner"
+    },
+    {
+        "name": "kuskus",
+        "restaurantNumber": 2,
+        "dishNumber": 9,
+        "ingredients": "kuskus, water",
+        "foodType": ["spicy"],
+        "img": "https://images.unsplash.com/photo-1610657592176-23d38cb78116?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "price": 45,
+        "isPopular": false,
+        "category": "dinner"
+    },
+    {
+        "name": "CornFlakes",
+        "restaurantNumber": 2,
+        "dishNumber": 10,
+        "ingredients": "corn, milk",
+        "foodType": ["spicy"],
+        "img": "https://images.unsplash.com/photo-1588710920403-dacfbae1a640?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80",
+        "price": 45,
+        "isPopular": false,
+        "category": "breakfast"
+    }
+]
