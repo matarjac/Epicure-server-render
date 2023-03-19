@@ -1,9 +1,9 @@
 import express from 'express';
 import routers from "./routes/index";
 import bodyParser from "body-parser";
-import cors from "cors";
 import { connectToDB } from "./connection";
 import dotenv from 'dotenv';
+const cors = require('cors');
 
 dotenv.config();
 
