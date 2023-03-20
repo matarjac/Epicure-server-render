@@ -71,6 +71,7 @@ export const logInUser = async (req: Request, res: Response) => {
             );
 
             user.token = token;
+            res.header("Access-Control-Allow-Origin", "*")
             return res.status(200).json({ user });
         }
         res.status(400).send("Invalid Credentials");
