@@ -10,10 +10,12 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT
 app.use(
-    cors({
-        origin: "https://matar-epicure.onrender.com/",
-        methods: ["GET, POST, DELETE"]
-    })
+    cors(
+        //     {
+        //     origin: "https://matar-epicure.onrender.com/",
+        //     methods: ["GET, POST, DELETE"]
+        // }
+    )
 );
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());

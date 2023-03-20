@@ -7,7 +7,7 @@ export const getAllDishes = async (req: Request, res: Response) => {
         console.log(dishes);
         return res
             .status(200)
-            .header("Access-Control-Allow-Origin", "https://matar-epicure.onrender.com/")
+            // .header("Access-Control-Allow-Origin", "https://matar-epicure.onrender.com/")
             .json(dishes)
     }
     catch (err: any) {
