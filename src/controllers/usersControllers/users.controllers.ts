@@ -71,7 +71,7 @@ export const logInUser = async (req: Request, res: Response) => {
             );
 
             user.token = token;
-            return res.status(200).header("Access-Control-Allow-Origin", "https://matar-epicure.onrender.com").json({ user });
+            return res.status(200).json({ user });
         }
         res.status(400).send("Invalid Credentials");
     }
